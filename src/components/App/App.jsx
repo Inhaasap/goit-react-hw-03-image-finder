@@ -60,7 +60,7 @@ export default class App extends Component {
       <div className="App">
         <Searchbar onSubmit={this.onSubmit} />
         {status === 'idle' && (
-          <p className="start-text">Please enter your request</p>
+          <p className="start-text">Hi there,<br/>let's find images you need ☝ </p>
         )}
         {status === 'rejected' && (
           <p className="start-text">

@@ -26,7 +26,7 @@ const Searchbar = ({ onSubmit }) => {
               name="search"
               className="SearchForm-input"
               type="text"
-              placeholder="Search images and photos"
+              placeholder="Search images or photos"
             />
           </Form>
         )}
