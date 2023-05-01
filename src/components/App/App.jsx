@@ -6,7 +6,6 @@ import Button from 'components/Button';
 import { RotatingLines } from 'react-loader-spinner';
 
 const API_KEY = '35789289-cb8210039172c6cb1d002435f';
-
 export default class App extends Component {
   state = {
     gallery: [],
